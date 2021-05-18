@@ -1,0 +1,171 @@
+.sobremim{
+    height: 750px;
+    padding-top: 50px;
+    width: 1340px;
+    margin: auto;
+}
+.sobremim__header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+}
+.sobremim__header h2{
+    font-size: 30px;
+}
+.sobremim__content{
+    text-align: justify;
+    text-indent: 15px;
+}
+.sobremim__content a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+.sobremim__fotos{
+    
+    height: 300px;
+    display: flex;
+    margin-top: 30px;
+}
+.sobremim__foto1,
+.sobremim__foto2,
+.sobremim__foto3{
+   
+    flex:1;
+    
+    background-size: cover;
+    border:solid 1px rgb(206, 206, 206);
+    box-sizing:unset;
+     
+    
+}
+.sobremim__foto1{
+    background-image: url("../img/Bandeira_do_Rio_Grande_do_Sul.svg.png");
+}
+.sobremim__foto2{
+    background-image: url("../img/Bandeira_do_Paraná.svg.png");
+    margin: 0px 10px 0px 10px;
+
+}
+.sobremim__foto3{
+    background-image: url("../img/Bandeira_Toledo_PR.jpg");
+}
+
+.historia{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+/*.trabalhos{
+    height: 650px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #333333;
+    padding-bottom: 50px;
+   
+}
+.trabalhos h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 30%);
+    
+}
+.trabalhos__container{
+    width: 1340px;
+    margin:auto;
+    height: inherit;
+    display: flex;
+    padding:10px 0px 10px 0px;
+    background-color: #333333;
+}
+.trabalhos__left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    background-color: #BFBFBF;
+    width: inherit;
+    padding-left: 5px;
+    
+}
+.trabalhos__left h2{
+    text-shadow: 0 1px 2px rgb(0 0 0 / 30%);
+    color:black;
+}
+.trabalhos__left1,
+.trabalhos__left2,
+.trabalhos__left3{
+    display: flex;
+    flex:1;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin:10px 0px 10px 0px;
+    font-size: 35px;
+    font-weight: 900;
+    
+}
+.trabalhos__right{
+    display: flex;
+    flex-direction:column ;
+    flex:4.5;
+    width: inherit;
+    
+}
+.trabalhos__right h2, h3,h4{
+    text-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    color:black;
+}
+.trabalhos__right1,
+.trabalhos__right2,
+.trabalhos__right3{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex:1;
+    margin:10px 0px 10px 0px;
+}
+.trabalhos__geral{
+    height: inherit;
+    background-color: #333333;
+   
+    
+}
+.trabalhos__right1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex:1;
+    height: inherit;
+    width: 100px;
+    border-right: solid 1px rgb(99, 99, 99);
+   
+}
+.trabalhos__right1-1 :nth-child(n){
+    margin: 5px;
+}
+.trabalhos__right1-2{
+  
+    display:flex;
+    flex:2;
+    justify-content: center;
+    align-items: center;
+    padding:0px 20px 0px 20px;
+    text-align: justify;
+
+}
+
+.especializacoes{
+    height: 600px;
+    margin-top: 50px;
+}
+*/
