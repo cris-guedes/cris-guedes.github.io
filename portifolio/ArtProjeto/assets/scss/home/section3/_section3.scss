@@ -1,0 +1,118 @@
+.section3,.invert{
+    margin-bottom: 70px;
+    width: 100%;
+    padding:20px 20px 40px 20px;
+    
+    .categorias{
+        
+        
+        
+        margin: auto;
+        display: flex;
+        .img{
+            width: 100%;
+            min-width: 300px;
+            max-width: 500px;
+            padding:20px 0px 0px 20px;
+            flex: 1;
+            border-radius: 100px 0px;
+            border: solid 1px $colorThemePrimary;
+            img{
+                width: 100%;
+                border-radius: 100px 0px;
+                margin: 0px -20px -20px 0px;
+                
+
+            }
+         
+        
+        }
+        .description{
+            flex: 2;
+            padding:50px 0px 0px 20px;
+
+            display: flex;
+            justify-content: center;
+            
+            flex-direction: column;
+            h2{
+                font-size: $fontSizeSecondary;
+                color:$font-ColorSecondary;
+                font-weight: $font-weigthSecondary;
+                
+                width: 100%;
+                
+            }
+            p{ display: flex;
+                flex-wrap: wrap;
+                margin: 20px 0px 30px 0px;
+                text-align: justify;
+            }
+            .saibamais{
+                width: 100%;
+                a{
+                    text-decoration: none;
+                    background-color: $colorThemeLight;
+                    width: 140px;
+                    height: 40px;
+                    color:$font-ColorLigth;
+                    border-radius: 0px 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &:hover{
+                        background-color: $colorThemeSecondary;
+                    }
+                }
+
+            }
+
+            
+            
+           
+            
+        }
+    }
+   
+   
+    
+
+        
+       
+    
+    
+}
+
+
+.invert{
+    
+    background-color: #eee;
+    .categorias{
+        flex-direction: row-reverse;
+        .img{
+            width: 100%;
+            min-width: 300px;
+            max-width: 500px;
+            padding:20px 20px 0px 0px;
+            flex: 1;
+            border-radius: 0px 100px;
+            border: solid 1px $colorThemePrimary;
+            img{
+                width: 100%;
+                border-radius: 0px 100px;
+                margin: 0px 0px -20px 0px;
+                
+            }
+        
+        }
+        .description{
+            padding:50px 20px 0px 0px;
+           
+            h2,.saibamais{
+                display: flex;
+                justify-content: flex-end;
+            }
+            
+        }
+    }
+}

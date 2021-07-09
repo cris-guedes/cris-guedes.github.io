@@ -1,0 +1,49 @@
+@media(max-width:650px){
+    .cards{
+        .cards-all{
+            padding: 0px 0px 0px 0px;
+            a{
+                margin: 0px 10px 20px 10px;
+            }
+        }
+
+    }
+ 
+    
+    .section-banner{
+        .banner{
+            
+            .slider{
+                padding-bottom: 30px;
+                .slick-prev::before{
+                    content: "";
+                }
+                .slick-next::before{
+                    content: "";
+                }
+            }
+        }
+    }
+    .section3,.invert{
+        padding:20px 10px 20px 10px;
+        .categorias{
+            .description{
+                flex:1;
+                width: 100%;
+                padding:50px 0px 0px 0px;
+    
+            }
+        }
+        
+    }
+    
+    
+    
+        
+        
+        
+    
+
+
+
+}

@@ -1,0 +1,138 @@
+
+.header-resultado{
+    display: flex;
+    height: 90px;
+    flex:1;
+    font-size: 32px;
+    align-items: center;
+    color:#24292E;
+   
+    
+}
+.img{
+    display:flex;
+    flex:2;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+.div0{
+    background-image: url("../imagens/VERMELHO.jpg");
+}
+.div1{
+    background-image: url("../imagens/LARANJA.jpg");
+}
+.div2{
+    background-image: url("../imagens/AMARELO.jpg");
+}
+.div3{
+    background-image: url("../imagens/AZUL.jpg");
+}
+.div4{
+    background-image: url("../imagens/VERDE.jpg");
+}
+.div5{
+    background-image: url("../imagens/BRANCO.jpg");
+}
+.div6{
+    background-image: url("../imagens/PRETO.jpg");
+}
+.div7{
+    background-image: url("../imagens/MARROM.jpg");
+}
+.div8{
+    background-image: url("../imagens/CINZA.jpg");
+}
+
+.div0,.div1,.div2,.div3,.div4,.div5,
+.div6,.div7,.div8{
+     display:flex;
+    flex:1;
+    flex-direction: column;
+    background-size:cover;
+    background-position: center; 
+    justify-content:end;
+    border-radius: 4px;
+    min-height: 800px;
+    justify-content:flex-end;
+    margin:10px;
+
+
+}
+.resultado-text{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    width: auto;
+   line-height: 35px;
+   padding: 10px;
+   margin-top:10px;
+   margin-bottom: 10px;
+}
+.resultado-text h1{
+    font-size: 32px;
+    margin:0;
+    padding-top: 20px;
+    color:#24292E;
+}
+.resultado-text h2{
+    font-size:20px;
+    color:#525252;
+    word-wrap:wrap;
+}
+#div-refazer{
+    display: flex;
+    
+}
+.share-btn{
+    display:flex;
+    margin-top: 20px;
+    
+    width: 100%;
+    background-color: white;
+    justify-content:center;
+    align-items:center;
+
+}
+.fb-share-button{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #395997;
+    font-size: 3.5rem;
+    padding:10px 0px 0px 0px;
+    border-radius: 0px 0px 10px 10px;
+
+
+}
+.share-btn a{
+    display: flex;
+    color:#FFEED7;
+    text-decoration: none;
+    align-items: center;
+
+}
+.fb-share-button img{
+    border-right: solid #FFEED7 1px; 
+    margin-right: 10px;
+}
+
+
+.resultado,.resultado1,
+.resultado2,.resultado3
+,.resultado4,.resultado5,
+.resultado6,
+.resultado7,.resultado8{
+    display:none;
+    flex:1;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 0px -5px 10px #bfbfbf;
+    margin: 10px 0px 10px 0px;
+    flex-direction: column;
+    background-color: white;
+
+}
+
