@@ -1,0 +1,85 @@
+.cursos{
+   background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("../img/cursos2.jpeg");
+    background-size: cover;
+    background-position: top;
+    height: 750px;
+   
+}
+.cursos__title,.title{
+    display: flex;
+    align-items: center;
+    color:white;
+    font-size: 3.75rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    height: 350px;
+    flex:1;
+    
+}
+
+.cursos__container{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    width: 1340px;
+    margin: auto;
+    
+}
+.cursos__content{
+    display: flex;
+    flex:0.7;
+    margin-bottom: 40px;
+   
+    
+}
+.cursos__content :nth-child(n){
+    flex:1;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: bolder;
+   
+}
+.cursos__square2,
+.cursos__square3,
+.cursos__square4{
+    
+    margin-left: 10px;
+    
+}
+.square1__foto,
+.square2__foto,
+.square3__foto,
+.square4__foto{
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 50px;
+}
+.square1__foto{
+    background-image: url("../img/tecinformatica.png");
+}
+.square2__foto{
+    background-image: url("../img/adm.png");
+}
+.square3__foto{
+    background-image: url("../img/auxadm.png");
+}
+.square4__foto{
+    background-image: url("../img/logistica.png");
+}
+.cursos__content h2{
+    display:flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding:20px;
+}
+.bar{
+    background-color: white;
+    width: 25px;
+    height: 200px;
+    margin-right: 5px;
+}
