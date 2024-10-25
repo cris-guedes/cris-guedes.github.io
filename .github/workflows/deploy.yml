@@ -26,6 +26,7 @@ jobs:
       - name: Deploy
         run: |
           cd dist
+          git config --global init.defaultBranch main
           git init
           git config user.name "${{ github.actor }}"
           git config user.email "cristianguedes136@gmail.com"
